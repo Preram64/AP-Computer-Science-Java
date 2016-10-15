@@ -11,10 +11,12 @@ public class FirstRunner
 	public static void main ( String[] args )
 	{
 		FirstAndLast demo = new FirstAndLast("Hello");
+		demo.setString("Hello");
 		System.out.println( "first letter :: " + demo.getFirst() );
 		System.out.println( "last letter :: " + demo.getLast() );
 		
-		FirstAndLast demo2 = new FirstAndLast("Hello");
+		FirstAndLast demo2 = new FirstAndLast("UIL");
+		demo.setString("UIL");
 		System.out.println( "first letter :: " + demo2.getFirst() );
 		System.out.println( "last letter :: " + demo2.getLast() );
 		

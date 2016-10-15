@@ -22,12 +22,12 @@ public class FirstAndLast
 
 	public String getFirst()
 	{
-		return "";
+		return word.charAt(0);
 	}
 	
 	public String getLast()
 	{
-		return "";
+		return word.charAt(1);
 	}
 
  	public String toString()
