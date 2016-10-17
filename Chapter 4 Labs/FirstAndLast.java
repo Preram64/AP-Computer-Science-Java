@@ -20,19 +20,23 @@ public class FirstAndLast
 		word = s;
 	}
 
-	public String getFirst()
+	public char getFirst()
 	{
 		return word.charAt(0);
 	}
 	
-	public String getLast()
+	public char getLast()
 	{
-		return word.charAt(1);
+		return word.charAt(word.length() -1);
 	}
 
  	public String toString()
  	{
  		String output="";
  		return output;
+	}
+	
+	public void Word() {
+		System.out.println("\n\nword :: " + word);
 	}
 }
