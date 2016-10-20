@@ -8,12 +8,17 @@ import static java.lang.System.*;
 
 public class NumberVerify
 {
-	public static boolean isOdd( int num )
-	{
-		return true;
-	}
-	public static boolean isEven( int num )
-	{
-		return true;
-	}	
+    public static boolean isOdd( int num )
+    {
+ 
+            if( num % 2 == 1 || num % 2 == -1) {return true;}
+            return false;
+         
+    }
+    public static boolean isEven( int num )
+    {
+                
+            if( num % 2 == 1 || num % 2 == -1) {return false;}
+            return true;
+    }  
 }
