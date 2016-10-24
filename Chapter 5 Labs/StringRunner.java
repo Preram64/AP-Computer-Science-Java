@@ -1,49 +1,30 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name -
-//Date - 
-//Class -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/24/16
+//Class - AP Computer Science
+//Lab  - Odd/Even String
 
 import static java.lang.System.*;
 import java.util.Scanner;
 
-public class StringRunnerv
+public class StringRunner
 {
 	public static void main ( String[] args )
 	{
-		Scanner keyboard = new Scanner (System.in);
+		StringOddOrEven obj = new StringOddOrEven();
+		int whileLoop=0;
+		Scanner keyboard = new  Scanner(System.in);
+		
+		while (whileLoop<=7){
 		out.print("Enter a word :: ");
 		
-		String word = keyboard.next();
-		StringOddOrEven demo = new StringOddOrEven(word);
-		out.println(demo);
+		String strWord = keyboard.next(); 
 		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
+			obj.setString(strWord);
+		out.println(obj);
 		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
-		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
-		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
-		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
-		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
-		
-		out.print("Enter a word :: ");
-		keyboard.next();
-		out.println(demo);
+		out.println();
+		whileLoop++;
+		 }				
 	}
 }
