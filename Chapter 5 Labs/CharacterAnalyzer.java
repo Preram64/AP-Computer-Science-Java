@@ -13,14 +13,17 @@ public class CharacterAnalyzer
 
 	public CharacterAnalyzer()
 	{
+		theChar = '-';
 	}
 
 	public CharacterAnalyzer(char c)
 	{
+		theChar = c;
 	}
 
 	public void setChar(char c)
 	{
+		theChar = c;
 	}
 
 	public char getChar()
@@ -30,22 +33,34 @@ public class CharacterAnalyzer
 
 	public boolean isUpper( )
 	{
-		return false;
+		if (theChar > 64 && theChar < 91) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public boolean isLower( )
 	{
-		return false;
+		if (theChar > 96 && theChar < 123) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 	
 	public boolean isNumber( )
 	{
-		return false;
+		if (theChar > 47 && theChar < 58) {
+			return true;
+		} else {
+			return false;
+		}
 	}	
 
 	public int getASCII( )
 	{
-		return 0;
+		return theChar;
 	}
 
 	public String toString()
