@@ -1,8 +1,8 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name -
-//Date - 
-//Class -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/25/16
+//Class - AP Computer Science
+//Lab  - Character Analyzer
 
 import static java.lang.System.*;
 import java.util.Scanner;
@@ -16,17 +16,38 @@ public class CharacterRunner
 		out.print("Enter a letter :: ");
 		char letter = keyboard.next().charAt(0);
 		CharacterAnalyzer test = new CharacterAnalyzer(letter);
-		out.println(test);   //A
-
-		//add more test cases
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 		
-
+		out.print("Enter a letter :: ");
+		letter = keyboard.next().charAt(0);
+		out.println(test);
 	}
 }

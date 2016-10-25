@@ -1,8 +1,8 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name - 
-//Date -
-//Class -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/25/16
+//Class - AP Computer Science
+//Lab  - Character Analyzer
 
 import static java.lang.System.*;
 import java.util.Scanner;

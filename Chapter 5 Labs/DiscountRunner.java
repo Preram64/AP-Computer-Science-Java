@@ -15,23 +15,37 @@ public class DiscountRunner
 		
 		out.print("Enter the original bill amount :: ");
 		double amt = keyboard.nextDouble();
-		
-		
-		out.print("Enter the original bill amount :: ");
-		amt = keyboard.nextDouble();
-		
-		
-		out.print("Enter the original bill amount :: ");
-		amt = keyboard.nextDouble();
-		
+		out.print("Bill after discount :: ");
+		out.printf("%.2f", Discount.getDiscountedBill(amt));
+		out.println();
+		out.println();
 		
 		out.print("Enter the original bill amount :: ");
 		amt = keyboard.nextDouble();
-		
+		out.print("Bill after discount :: ");
+		out.printf("%.2f", Discount.getDiscountedBill(amt));
+		out.println();
+		out.println();
 		
 		out.print("Enter the original bill amount :: ");
 		amt = keyboard.nextDouble();
+		out.print("Bill after discount :: ");
+		out.printf("%.2f", Discount.getDiscountedBill(amt));
+		out.println();
+		out.println();
 		
-
+		out.print("Enter the original bill amount :: ");
+		amt = keyboard.nextDouble();
+		out.print("Bill after discount :: ");
+		out.printf("%.2f", Discount.getDiscountedBill(amt));
+		out.println();
+		out.println();
+		
+		out.print("Enter the original bill amount :: ");
+		amt = keyboard.nextDouble();
+		out.print("Bill after discount :: ");
+		out.printf("%.2f", Discount.getDiscountedBill(amt));
+		out.println();
+		out.println();
 	}
 }
