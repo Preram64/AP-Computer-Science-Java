@@ -16,38 +16,47 @@ public class CharacterRunner
 		out.print("Enter a letter :: ");
 		char letter = keyboard.next().charAt(0);
 		CharacterAnalyzer test = new CharacterAnalyzer(letter);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 		
 		out.print("Enter a letter :: ");
 		letter = keyboard.next().charAt(0);
+		test.setChar(letter);
 		out.println(test);
 	}
 }

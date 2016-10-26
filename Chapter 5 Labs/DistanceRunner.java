@@ -1,8 +1,8 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name -
-//Date - 
-//Class -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/26/16
+//Class - AP Computer Science
+//Lab  - Distance Formula
 
 import java.util.Scanner;
 import static java.lang.System.*;
@@ -27,6 +27,43 @@ public class DistanceRunner
 		test.setCoordinates(xOne, yOne, xTwo, yTwo);
 		out.println(test.determineClosest());
 		
-		//add more test cases
+		
+		out.print("Enter X1 :: ");
+		xOne = keyboard.nextInt();
+		out.print("Enter Y1 :: ");
+		yOne = keyboard.nextInt();
+		out.print("Enter X2 :: ");
+		xTwo = keyboard.nextInt();
+		out.print("Enter Y2 :: ");
+		yTwo = keyboard.nextInt();
+
+		test.setCoordinates(xOne, yOne, xTwo, yTwo);
+		out.println(test.determineClosest());
+		
+		
+		out.print("Enter X1 :: ");
+		xOne = keyboard.nextInt();
+		out.print("Enter Y1 :: ");
+		yOne = keyboard.nextInt();
+		out.print("Enter X2 :: ");
+		xTwo = keyboard.nextInt();
+		out.print("Enter Y2 :: ");
+		yTwo = keyboard.nextInt();
+
+		test.setCoordinates(xOne, yOne, xTwo, yTwo);
+		out.println(test.determineClosest());
+		
+		
+		out.print("Enter X1 :: ");
+		xOne = keyboard.nextInt();
+		out.print("Enter Y1 :: ");
+		yOne = keyboard.nextInt();
+		out.print("Enter X2 :: ");
+		xTwo = keyboard.nextInt();
+		out.print("Enter Y2 :: ");
+		yTwo = keyboard.nextInt();
+
+		test.setCoordinates(xOne, yOne, xTwo, yTwo);
+		out.println(test.determineClosest());
 	}
 }

@@ -28,7 +28,7 @@ public class CharacterAnalyzer
 
 	public char getChar()
 	{
-		return '-';
+		return theChar;
 	}
 
 	public boolean isUpper( )
@@ -65,6 +65,13 @@ public class CharacterAnalyzer
 
 	public String toString()
 	{
-		return ""+getChar() + " is a lowercase character. ASCII == " + getASCII() + "\n";	  
+		if (isUpper() == true) {
+			return "" + getChar() + " is an uppercase character. ASCII == " + getASCII() + "\n";
+		} else if (isLower() == true) {
+			return "" + getChar() + " is a lowercase character. ASCII == " + getASCII() + "\n";
+		} else if (isNumber() == true) {
+			return "" + getChar() + " is a number. ASCII == " + getASCII() + "\n";
+		}
+		return "";
 	}
 }

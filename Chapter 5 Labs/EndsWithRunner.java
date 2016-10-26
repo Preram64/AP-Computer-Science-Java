@@ -1,7 +1,7 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name -
-//Date -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/26/16
+//Lab  - String Ends With
 
 import static java.lang.System.*; 
 import java.util.Scanner;
