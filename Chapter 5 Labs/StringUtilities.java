@@ -10,6 +10,6 @@ public class StringUtilities
 {
  	public static boolean endsWith(String a, String b)
  	{
-		return false;
-	}
+ 		String aEnding = indexOf(b);
+ 	}
 }
