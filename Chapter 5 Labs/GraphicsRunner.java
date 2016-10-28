@@ -1,8 +1,8 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name - 
-//Date -
-//Class -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/28/16
+//Class - AP Computer Science
+//Lab  - Animated Car
 
 import javax.swing.JFrame;
 

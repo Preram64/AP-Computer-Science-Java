@@ -1,8 +1,8 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name - 
-//Date -
-//Class -
-//Lab  -
+//Name - Sean Wangnick
+//Date - 10/28/16
+//Class - AP Computer Science
+//Lab  - Animated Car
 
 import java.awt.Graphics;
 import java.awt.Color;
@@ -55,7 +55,9 @@ class AnimatedCar extends Canvas
 		window.fillRect(x,y+20,80,40);
 
 		
-		//draw a wheel
+		window.setColor(Color.BLUE);
+		window.drawOval();
+		window.drawOval();
 		
 		
 		//draw another wheel
