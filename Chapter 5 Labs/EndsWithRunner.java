@@ -10,12 +10,14 @@ public class EndsWithRunner
 {
 	public static void main ( String[] args )
 	{
-		System.out.println( StringUtilities.endsWith("chicken", "en"));
-		System.out.println( StringUtilities.endsWith("chicken", "dog"));
-		System.out.println( StringUtilities.endsWith("alligator", "gator"));
-		System.out.println( StringUtilities.endsWith("alligator", "all"));
-		System.out.println( StringUtilities.endsWith("apluscompsci", "sci"));
-		System.out.println( StringUtilities.endsWith("apluscompsci", "comp"));
+		System.out.println(StringUtilities.endsWith("chicken", "en"));
+		System.out.println(StringUtilities.endsWith("chicken", "dog"));
+		System.out.println(StringUtilities.endsWith("alligator", "gator"));
+		System.out.println(StringUtilities.endsWith("alligator", "all"));
+		System.out.println(StringUtilities.endsWith("apluscompsci", "sci"));
+		System.out.println(StringUtilities.endsWith("apluscompsci", "comp"));
+		
+		
 		
 		
 		//test cases				

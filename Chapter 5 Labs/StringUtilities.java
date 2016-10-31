@@ -10,6 +10,14 @@ public class StringUtilities
 {
  	public static boolean endsWith(String a, String b)
  	{
- 		String aEnding = indexOf(b);
+ 		String one = a;
+ 		String two = b;
+ 		//String aEnding = indexOf(b);
+ 		
+ 		if (two.equals (one.substring(one.charAt(5)))) {
+ 			return true;
+ 		}
+ 		
+ 		return false;
  	}
 }
