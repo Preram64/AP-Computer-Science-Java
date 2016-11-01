@@ -4,18 +4,19 @@
 //Class - AP Computer Science
 //Lab  - Animated Car
 
+import static java.lang.System.*;
 import javax.swing.JFrame;
 
 public class GraphicsRunner extends JFrame
 {
 	private static final int WIDTH = 800;
-	private static final int HEIGHT = 600;
+	private static final int HEIGHT = 400;
 
 	public GraphicsRunner()
 	{
 		super("Graphics Runner");
 		setSize(WIDTH,HEIGHT);
-						
+		
 		getContentPane().add(new AnimatedCar(WIDTH, HEIGHT));
 				
 		setVisible(true);

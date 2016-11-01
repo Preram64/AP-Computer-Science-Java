@@ -14,19 +14,19 @@ import java.awt.Canvas;
 
 class AnimatedCar extends Canvas
 {
-	private int x;
+	private int x=0;
 	private int y;
 	private Timer timer;
-	private final static int SLEEP = 50;  //bigger # = slower animation	
+	private final static int SLEEP = 100;  //bigger # = slower animation	
 	
 	public AnimatedCar(int width, int heigth)
 	{
 		setSize(width, heigth);
 		setVisible(true);
 		setBackground(Color.BLACK);
-
-		x = 0;
-		y = 50;
+		
+		x = 70;
+		y = 0;
 
 		ActionListener paintCaller = new ActionListener(){
 			public void actionPerformed(ActionEvent event)
@@ -36,39 +36,38 @@ class AnimatedCar extends Canvas
 		};
 		timer = new Timer(SLEEP, paintCaller);
 		timer.start();
-	}	
-	
-	public void update(Graphics window)
-	{
-	   paint(window);	
 	}
-	
-	public void paint( Graphics window )
-	{
-		window.setColor(Color.BLACK);
-		window.fillRect(0,0,getWidth(),getHeight());
-		
-		window.setColor(Color.WHITE);
-		window.drawString("Animation Lab - Lab05c", 25, 50 );
 
-		window.setColor(Color.GREEN);
-		window.fillRect(x,y+20,80,40);
+   public void paint( Graphics window )
+   {
+      window.setColor(Color.BLUE);
+	  rectangle(window);
+	  wheels(window);
+	  if (x<=getWidth()){
+	  	x+=50;
+	  } else {
+	  	x=200;
+	  }
+      // call head method and pass it window
+      
+      
+      // call other methods and pass it window
+      
+      
+   }
+   
+   public void rectangle( Graphics window )
+   {	
+   		window.setColor(Color.GREEN);
+        window.fillRect(x,y+50,100,40);
+   }
 
-		
-		window.setColor(Color.BLUE);
-		window.drawOval();
-		window.drawOval();
-		
-		
-		//draw another wheel
-		
-		
-		//increment x by 50
+   public void wheels( Graphics window )
+   {
+   		window.setColor(Color.BLUE);
+		window.fillOval(x-10,y+70,50,50);
+		window.fillOval(x+80,y+70,50,50);
+		// add more code here
 
-		
-		//if x has reached the far right side of the screen
-		//set it back to zero
-		
-		
-	}	
+   }
 }
